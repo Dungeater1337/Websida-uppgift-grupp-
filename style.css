@@ -1,0 +1,16 @@
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.wrapper{
+    display: grid; /* Visar wrappern */
+    gap: 25px;
+    grid-template-columns: auto auto auto auto;
+}
+
+.grid-item1{
+    grid-column: 1 / span 4;
+    grid-row: 1 / span 6;
+    grid-area: header;
+}
+
