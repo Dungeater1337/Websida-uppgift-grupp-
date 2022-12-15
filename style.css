@@ -1,33 +1,32 @@
 body {
-    background-color: rgb(216, 185, 144); /* Färg bakom griddarna */
+    background-color: rgb(240, 239, 203); /* Färg bakom griddarna */
 }
 
-.container {
+.container { /* För alla gridda */
     display: grid;
-    grid-template-columns: auto auto auto; /* För alla gridda */
+    grid-template-columns: 15%;
     grid-gap: 10px;
-    grid-template-rows: 150px 150px;
-    background-color: rgb(252, 230, 201);
+    grid-template-rows: 150px 750px;
+    background-color: rgb(242, 243, 184);
 }
 
-.item-1{
-    border-style: solid; /* Plan A Titletext text */
+.item-1{ /* Plan A Titletext */
+    border-style: double; 
     grid-column: span 3;
 }
 
-.item-2{
-    border-style: solid; /* Plan B Nav meny */
-    width: 50%;
+.item-2{ /* Plan B Nav meny */
+    border-style: double; 
     grid-column: span 1;
-    grid-row: span 1; 
+  
 }
 
-.item-3{
-    border-style: solid; /* Plan C Informationstext */
-    grid-column: span 2;
-    grid-row: span 1;
-    margin-right: 5%;
+.item-3{ /* Plan C Informationstext */
+    border-style: double; 
+    width: auto;
+    grid-column: span 2
 }
+
     
 
   
