@@ -1,16 +1,35 @@
-body{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+body {
+    background-color: rgb(216, 185, 144); /* Färg bakom griddarna */
 }
 
-.wrapper{
-    display: grid; /* Visar wrappern */
-    gap: 25px;
-    grid-template-columns: auto auto auto auto;
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto; /* För alla gridda */
+    grid-gap: 10px;
+    grid-template-rows: 150px 150px;
+    background-color: rgb(252, 230, 201);
 }
 
-.grid-item1{
-    grid-column: 1 / span 4;
-    grid-row: 1 / span 6;
-    grid-area: header;
+.item-1{
+    border-style: solid; /* Plan A Titletext text */
+    grid-column: span 3;
 }
+
+.item-2{
+    border-style: solid; /* Plan B Nav meny */
+    width: 50%;
+    grid-column: span 1;
+    grid-row: span 1; 
+}
+
+.item-3{
+    border-style: solid; /* Plan C Informationstext */
+    grid-column: span 2;
+    grid-row: span 1;
+    margin-right: 5%;
+}
+    
+
+  
+
 
