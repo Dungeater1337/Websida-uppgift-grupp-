@@ -1,10 +1,10 @@
 body {
-    background-color: rgb(240, 239, 203); /* Färg bakom griddarna */
+    background-color: rgb(240, 239, 203); /* Färg bakom container/wrapper */
 }
 
 .container { /* För alla gridda */
     display: grid;
-    grid-template-columns: 15%;
+    grid-template-columns: 1fr 6fr 1fr;
     grid-gap: 10px;
     grid-template-rows: 150px 750px;
     background-color: rgb(242, 243, 184);
@@ -13,22 +13,27 @@ body {
 .item-1{ /* Plan A Titletext */
     border-style: double; 
     grid-column: span 3;
+    height: auto;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 150%;
 }
 
 .item-2{ /* Plan B Nav meny */
     border-style: double; 
     grid-column: span 1;
-  
+    font-family:'Times New Roman', Times, serif;
+    
 }
 
 .item-3{ /* Plan C Informationstext */
     border-style: double; 
     width: auto;
-    grid-column: span 2
+    grid-column: span 1
 }
 
-    
-
-  
-
+.item-4 { /* någotting glömde bort */
+border-style: double;
+}
 
