@@ -5,7 +5,7 @@ body {
 .container { /* För alla gridda */
     display: grid;
     grid-template-columns: 1fr 6fr 1fr;
-    grid-gap: 10px;
+    grid-gap: 5px;
     grid-template-rows: 150px 750px;
     background-color: rgb(242, 243, 184);
 }
@@ -38,6 +38,6 @@ body {
 }
 
 nav{
-    
+
 }
 
