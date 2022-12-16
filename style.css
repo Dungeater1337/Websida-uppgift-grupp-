@@ -12,6 +12,7 @@ body {
 
 .item-1{ /* Plan A Titletext */
     border-style: double; 
+    
     grid-column: span 3;
     height: auto;
     text-align: center;
@@ -24,7 +25,6 @@ body {
     border-style: double; 
     grid-column: span 1;
     font-family:'Times New Roman', Times, serif;
-    
 }
 
 .item-3{ /* Plan C Informationstext */
@@ -34,6 +34,10 @@ body {
 }
 
 .item-4 { /* någotting glömde bort */
-border-style: double;
+    border-style: double;
+}
+
+nav{
+    
 }
 
