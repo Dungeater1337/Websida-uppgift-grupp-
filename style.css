@@ -14,7 +14,7 @@ body {
 }
 
 .item-1{ /* Plan A Titletext */
-    background-color: rgb(236, 98, 98);
+    background-color: rgb(255, 0, 0);
     border-style: double; 
     grid-column: span 3;
     height: auto;
@@ -26,7 +26,7 @@ body {
 }
 
 .item-2{ /* Plan B Nav meny */
-    background-color: rgb(58, 112, 192);
+    background-color: rgb(0, 153, 255);
     border-style: double; 
     grid-column: span 1;
     font-family:'Times New Roman', Times, serif;
@@ -36,7 +36,7 @@ body {
 }
 
 .item-3{ /* Plan C Informationstext */
-    background-color: rgb(149, 99, 230);
+    background-color: rgb(98, 0, 255);
     border-style: double; 
     width: auto;
     grid-column: span 1;
@@ -46,7 +46,7 @@ body {
 }
 
 .item-4 { /* någonting glömde bort */
-    background-color: rgb(190, 151, 100);
+    background-color: rgb(255, 238, 0);
     border-style: double;
     border-radius: 25px;
 }
@@ -61,7 +61,7 @@ ul{ /*Meny listans cirklar*/
 }
 
 li{ /*Listans style*/
-    background-color: rgb(91, 91, 177);
+    background-color: rgb(130, 130, 255);
     border-style:double;
     border-radius:15%;
 }
@@ -70,6 +70,9 @@ a{
     text-decoration: none;
 }
 
-
-
-
+.item-23{
+    background-color: rgb(149, 99, 230);
+    border-style: double; 
+    width: auto;
+    grid-column: span 2;
+}
