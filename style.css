@@ -42,7 +42,8 @@ body {
     grid-column: span 1;
     Text-align:center;
     font-size:30px;
-    
+    border-radius: 25px;
+
 }
 
 .item-4 { /* någonting glömde bort */
@@ -61,7 +62,7 @@ ul{ /*Meny listans cirklar*/
 }
 
 li{ /*Listans style*/
-    background-color: rgb(130, 130, 255);
+    background-color: rgb(130, 130, 243);
     border-style:double;
     border-radius:15%;
 }
@@ -71,8 +72,13 @@ a{
 }
 
 .item-23{
-    background-color: rgb(149, 99, 230);
+    background-color: rgb(98, 00, 255);
     border-style: double; 
     width: auto;
     grid-column: span 2;
+    border-radius: 25px;
+    text-align: left;
+    font-size: 30px;
 }
+
+
