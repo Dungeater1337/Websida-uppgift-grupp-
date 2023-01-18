@@ -3,6 +3,7 @@ body {
   
 }
 
+
 .container { /* För alla gridda */
     display: grid;
     grid-template-columns: 1fr 6fr 1fr;
@@ -77,8 +78,9 @@ a{
     width: auto;
     grid-column: span 2;
     border-radius: 25px;
-    text-align: left;
+    text-align: Center;
     font-size: 30px;
 }
+
 
 
