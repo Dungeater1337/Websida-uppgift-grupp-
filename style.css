@@ -1,3 +1,4 @@
+
 body {
   background-image: url(https://media.istockphoto.com/id/502936829/photo/car-tires.jpg?s=612x612&w=0&k=20&c=3jn6wQtmUxnOdDEOOIfz3VGf_CXwvL7KBwKR_HxfPcU=);
   
@@ -9,14 +10,11 @@ body {
     grid-template-columns: 1fr 6fr 1fr;
     grid-gap: 1px;
     grid-template-rows: 150px 750px;
-    background-color: rgb(32, 32, 31);
-    
-    
 }
 
 .item-1{ /* Plan A Titletext */
-    background-color: rgb(255, 0, 0);
-    border-style: double; 
+    background-color: rgb(63, 78, 79);
+    border-style: solid; 
     grid-column: span 3;
     height: auto;
     text-align: center;
@@ -27,8 +25,8 @@ body {
 }
 
 .item-2{ /* Plan B Nav meny */
-    background-color: rgb(0, 153, 255);
-    border-style: double; 
+    background-color: rgb(220, 215, 201);
+    border-style: solid; 
     grid-column: span 1;
     font-family:'Times New Roman', Times, serif;
     font-style: italic;
@@ -37,8 +35,8 @@ body {
 }
 
 .item-3{ /* Plan C Informationstext */
-    background-color: rgb(98, 0, 255);
-    border-style: double; 
+    background-image: linear-gradient(to right, red , yellow);
+    border-style: solid; 
     width: auto;
     grid-column: span 1;
     Text-align:center;
@@ -48,10 +46,12 @@ body {
 }
 
 .item-4 { /* någonting glömde bort */
-    background-color: rgb(255, 238, 0);
-    border-style: double;
+    background-image: url(https://t3.ftcdn.net/jpg/04/15/64/98/360_F_415649891_o1C3n3N3WucOFSK5zExC0hd13TuOeEIJ.jpg);
+    border-style: solid;
     border-radius: 25px;
 }
+
+
 
 nav{ /* Meny style */
     margin-right: 20%;
@@ -59,27 +59,40 @@ nav{ /* Meny style */
 }
 
 ul{ /*Meny listans cirklar*/
-    list-style-type:circle;
+    list-style-type: none;
 }
 
 li{ /*Listans style*/
     background-color: rgb(130, 130, 243);
-    border-style:double;
+    border-style: solid;
     border-radius:15%;
+}
+
+.item-5{
+    background-color: rgb(162, 123, 92);
+    border-style: solid; 
+    width: auto;
+    grid-column: span 2;
+    border-radius: 25px;
+    text-align: Center;
+    font-size: 30px;
 }
 
 a{
     text-decoration: none;
 }
 
-.item-23{
-    background-color: rgb(98, 00, 255);
-    border-style: double; 
-    width: auto;
-    grid-column: span 2;
-    border-radius: 25px;
-    text-align: Center;
-    font-size: 30px;
+.text{
+    font-size: 20px;
+    font-style: italic;
+}
+
+.gammal{
+   height: 370px;
+   margin-top: 20px;
+   border-radius: 10px;
+   border-style:inherit;
+   border-color:rgb(211, 164, 94)
 }
 
 
