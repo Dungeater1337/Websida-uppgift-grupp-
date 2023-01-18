@@ -13,7 +13,7 @@ body {
 }
 
 .item-1{ /* Plan A Titletext */
-    background-color: rgb(63, 78, 79);
+    background-color: rgba(236, 196, 143, 0.932);
     border-style: solid; 
     grid-column: span 3;
     height: auto;
@@ -35,14 +35,14 @@ body {
 }
 
 .item-3{ /* Plan C Informationstext */
-    background-image: linear-gradient(to right, red , yellow);
+    background-image: linear-gradient(to right, rgb(223, 112, 78) , rgb(168, 137, 51));
     border-style: solid; 
     width: auto;
     grid-column: span 1;
     Text-align:center;
     font-size:30px;
     border-radius: 25px;
-
+    
 }
 
 .item-4 { /* någonting glömde bort */
@@ -85,6 +85,7 @@ a{
 .text{
     font-size: 20px;
     font-style: italic;
+    color: antiquewhite;
 }
 
 .gammal{
@@ -92,7 +93,15 @@ a{
    margin-top: 20px;
    border-radius: 10px;
    border-style:inherit;
-   border-color:rgb(211, 164, 94)
+   border-color:rgb(211, 164, 94);
+}
+
+.pasta{
+    height: 370px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border-style:inherit;
+    border-color:rgb(211, 164, 94);
 }
 
 
