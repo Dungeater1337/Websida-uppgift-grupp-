@@ -22,7 +22,7 @@ body {
 }
 
 .item-2{ /* Plan B Nav meny */
-    background-image: url(https://images.pexels.com/photos/6788339/pexels-photo-6788339.jpeg?cs=srgb&dl=pexels-polina-kovaleva-6788339.jpg&fm=jpg);
+    background-image: url(https://images.unsplash.com/photo-1580687104139-9d51ce55e346?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c3RvbmUlMjB0ZXh0dXJlfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
     grid-column: span 1;
     font-family:'Times New Roman', Times, serif;
     font-style: italic;
@@ -62,10 +62,6 @@ nav{ /* Meny style */
     font-size: 30px;
 }
 
-a{
-    text-decoration: none;
-}
-
 .text{
     font-size: 20px;
     font-style: italic;
@@ -91,6 +87,7 @@ a{
 li{
     color: azure;
     font-size: large;
+    margin:1em
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -100,6 +97,49 @@ font-style: italic;
 
 ul{
     list-style: none;
+    color: azure;
+}
+
+a:visited 
+{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+p{
+    font-style: italic;
+    color: azure;
+}
+
+.cool{
+  text-align: center;
+}
+
+.race{
+    height: 370px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border-style:inherit;
+    border-color:rgb(211, 164, 94);
+}
+
+.cars{
+    height: 370px;
+    border-radius: 10px;
+    border-style:inherit;
+    border-color:rgb(211, 164, 94);
+}
+
+.tim{
+    font-size:large;
+    font-style: italic;
+    text-align: center;
+}
+
+.intro{
+    font-size:large;
+    text-align: center;
+    font-style: italic;
 }
 
 
