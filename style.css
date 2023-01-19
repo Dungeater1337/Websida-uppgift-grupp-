@@ -1,32 +1,28 @@
 
 body {
-  background-image: url(https://media.istockphoto.com/id/502936829/photo/car-tires.jpg?s=612x612&w=0&k=20&c=3jn6wQtmUxnOdDEOOIfz3VGf_CXwvL7KBwKR_HxfPcU=);
-  
+  background-image: url(https://images.unsplash.com/photo-1610824224972-db9878a2fe2c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d29vZCUyMHRleHR1cmV8ZW58MHx8MHx8&w=1000&q=80);
 }
-
 
 .container { /* För alla gridda */
     display: grid;
     grid-template-columns: 1fr 6fr 1fr;
-    grid-gap: 1px;
+    grid-gap: 5px;
     grid-template-rows: 150px 750px;
 }
 
 .item-1{ /* Plan A Titletext */
-    background-color: rgba(236, 196, 143, 0.932);
-    border-style: solid; 
+    background-image: linear-gradient(to right, rgb(223, 112, 78) , rgb(168, 137, 51));
     grid-column: span 3;
     height: auto;
     text-align: center;
     font-family:'Times New Roman', Times, serif;
     font-style: italic;
     font-size: 150%; 
-    border-radius: 25px;
+    border-radius: 25px;;
 }
 
 .item-2{ /* Plan B Nav meny */
-    background-color: rgb(220, 215, 201);
-    border-style: solid; 
+    background-image: url(https://images.pexels.com/photos/6788339/pexels-photo-6788339.jpeg?cs=srgb&dl=pexels-polina-kovaleva-6788339.jpg&fm=jpg);
     grid-column: span 1;
     font-family:'Times New Roman', Times, serif;
     font-style: italic;
@@ -36,18 +32,16 @@ body {
 
 .item-3{ /* Plan C Informationstext */
     background-image: linear-gradient(to right, rgb(223, 112, 78) , rgb(168, 137, 51));
-    border-style: solid; 
     width: auto;
     grid-column: span 1;
     Text-align:center;
     font-size:30px;
     border-radius: 25px;
-    
 }
 
-.item-4 { /* någonting glömde bort */
+.item-4 { /* Meny och Tider */
     background-image: url(https://t3.ftcdn.net/jpg/04/15/64/98/360_F_415649891_o1C3n3N3WucOFSK5zExC0hd13TuOeEIJ.jpg);
-    border-style: solid;
+    border-style: none;
     border-radius: 25px;
 }
 
@@ -56,21 +50,11 @@ body {
 nav{ /* Meny style */
     margin-right: 20%;
     font-size: 170%;
-}
-
-ul{ /*Meny listans cirklar*/
-    list-style-type: none;
-}
-
-li{ /*Listans style*/
-    background-color: rgb(130, 130, 243);
-    border-style: solid;
-    border-radius:15%;
+    color: rgb(0, 0, 0);
 }
 
 .item-5{
-    background-color: rgb(162, 123, 92);
-    border-style: solid; 
+    background-image: linear-gradient(to right, rgb(223, 112, 78) , rgb(168, 137, 51));
     width: auto;
     grid-column: span 2;
     border-radius: 25px;
@@ -103,6 +87,22 @@ a{
     border-style:inherit;
     border-color:rgb(211, 164, 94);
 }
+
+li{
+    color: azure;
+    font-size: large;
+}
+
+h1,h2,h3,h4,h5,h6{
+color: aliceblue;
+font-style: italic;
+}
+
+ul{
+    list-style: none;
+}
+
+
 
 
 
