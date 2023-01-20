@@ -22,7 +22,7 @@ body {
 }
 
 .item-2{ /* Plan B Nav meny */
-    background-image: url(https://images.unsplash.com/photo-1580687104139-9d51ce55e346?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c3RvbmUlMjB0ZXh0dXJlfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+    background-image: url(https://media.istockphoto.com/id/1066080904/photo/black-marble-texture-and-background.jpg?b=1&s=170667a&w=0&k=20&c=lDwnNvJ9bZeNHK0XKQZ3Vv8PASHVhLeThfrywePTJyM=);
     grid-column: span 1;
     font-family:'Times New Roman', Times, serif;
     font-style: italic;
@@ -100,7 +100,7 @@ ul{
     color: azure;
 }
 
-a:visited 
+a
 {
     text-decoration: none;
     color: aliceblue;
@@ -141,6 +141,8 @@ p{
     text-align: center;
     font-style: italic;
 }
+
+
 
 
 
