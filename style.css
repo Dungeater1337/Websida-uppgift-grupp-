@@ -53,7 +53,7 @@ nav{ /* Meny style */
     color: rgb(0, 0, 0);
 }
 
-.item-5{
+.item-5{   
     background-image: linear-gradient(to right, rgb(223, 112, 78) , rgb(168, 137, 51));
     width: auto;
     grid-column: span 2;
@@ -62,13 +62,13 @@ nav{ /* Meny style */
     font-size: 30px;
 }
 
-.text{
+.text{ /* storlek och text stil och färg till texten*/
     font-size: 20px;
     font-style: italic;
     color: antiquewhite;
 }
 
-.gammal{
+.gammal{ /*positioner och storlek till bilen*/
    height: 370px;
    margin-top: 20px;
    border-radius: 10px;
@@ -76,7 +76,7 @@ nav{ /* Meny style */
    border-color:rgb(211, 164, 94);
 }
 
-.pasta{
+.pasta{ /*position och storlek till pastan*/
     height: 370px;
     margin-top: 20px;
     border-radius: 10px;
@@ -84,38 +84,38 @@ nav{ /* Meny style */
     border-color:rgb(211, 164, 94);
 }
 
-li{
+li{ /*style på listan*/
     color: azure;
     font-size: large;
     margin:1em
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h4,h5,h6{  /*Style till texten*/
 color: aliceblue;
 font-style: italic;
 }
 
-ul{
+ul{ /*Färg och stil till punktlista*/
     list-style: none;
     color: azure;
 }
 
-a
+a /**/
 {
     text-decoration: none;
     color: aliceblue;
 }
-
-p{
+ 
+p{ /*text stil och färg til texten*/
     font-style: italic;
     color: azure;
 }
 
-.cool{
+.cool{ /*position*/
   text-align: center;
 }
 
-.race{
+.race{ /**/
     height: 370px;
     margin-top: 20px;
     border-radius: 10px;
